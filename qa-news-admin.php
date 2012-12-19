@@ -118,19 +118,19 @@
 			
 			
 			$fields[] = array(
-				'label' => 'Maximum number of questions to include',
+				'label' => 'Maximum number of actions to include',
 				'tags' => 'NAME="news_plugin_max_q"',
 				'value' => qa_opt('news_plugin_max_q'),
 				'type' => 'number',
 			);
 			$fields[] = array(
-				'label' => 'Maximum number of answers to include',
+				'label' => 'Maximum number of reactions to include',
 				'tags' => 'NAME="news_plugin_max_a"',
 				'value' => qa_opt('news_plugin_max_a'),
 				'type' => 'number',
 			);
 			$fields[] = array(
-				'label' => 'Maximum number of comments to include',
+				'label' => 'Maximum number of reactions on reactions to include',
 				'tags' => 'NAME="news_plugin_max_c"',
 				'value' => qa_opt('news_plugin_max_c'),
 				'type' => 'number',
